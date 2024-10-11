@@ -1,0 +1,16 @@
+Pseudo code for "Monthly sales Tax" program
+
+PROMPT user "What was your total sales this month? "
+SAVE input as variable sales_total
+CALCULATE the county_tax(0.25) TIMES sales_total
+SAVE value as county_sales_tax
+CALCULATE the state_tax(0.5) TIMES sales_total
+SAVE value as state_sales_tax
+CALCULATE the SUM of state_sales_tax AND county_sales_tax
+SAVE value as total_sales_tax
+Then will DISPLAY:
+county_sales_tax
+state_sales_tax
+total_sales_tax
+to the user.
+END
